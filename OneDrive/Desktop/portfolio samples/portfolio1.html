@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PORTFOLIO</title>
+    <style>
+        .prime-div{
+            display: grid;
+        }
+        .left-div{
+            height: 100vh;
+            width: 30%;
+            background-color: rgb(231,217,208);
+            display: inline-block;
+        }
+        .profile-box{
+            width: 350px;
+            height: 400px;
+            background-color: #F5EFE8;
+            margin-top: 180px;
+            margin-left: 300px;
+            box-shadow: 1px 1px 5px rgb(0, 0, 0);
+            position: relative;
+            border-radius: 20px;
+        }  
+        .bottom-box{
+            position: absolute;
+            width: 350px;
+            height: 60px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+        }
+        .profile-foto{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            box-shadow: 1px 1px 5px black;
+            position: absolute;
+            left: 75px;
+            top: 20px;
+        }
+        .name{
+            position: absolute;
+            top: 220px;
+            left: 55px;
+            font-family: 'Exo 2' ,sans-serif;
+            font-weight:600;
+            font-size: 22px;
+            color: rgb(0, 0, 0);
+        }
+        .blue-box{
+            width: 90px;
+            height: 5px;
+            background-color: rgb(10, 186, 244);
+            position: absolute;
+            top: 285px;
+            left: 130px;
+            border-radius: 10px;
+           
+        }
+        .profesion{
+            position: absolute;
+            font-family: 'Exo 2' ,sans-serif;
+            top: 295px;
+            left: 90px;
+            font-weight:lighter;
+        }
+        .facebook{
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 30px;
+            transition: 0.15s;
+        }
+        .facebook:hover{
+            transform: scale(1.2);
+            box-shadow: 1px 1px 5px black;
+        }
+        .facebook:active{
+            opacity: 0.10;
+        }
+        .fb{
+            width: 25px;
+            height: 25px;
+        }
+        .right-div{
+            width: 600px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 300px;
+            margin-bottom: 100px;
+            display: inline-block;
+            position: relative;
+        }
+        .heading{
+            position: absolute;
+            font-family: 'Exo 2' ,sans-serif;
+            font-weight: 700;
+            font-size: 50px;
+
+        }
+        .para{
+            position: absolute;
+            font-family: 'Exo 2' ,sans-serif; 
+            top: 70px;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+        .resume-button{
+            position: absolute;
+            width: 90px;
+            height: 30px;
+            background-color: rgb(10, 186, 244);
+            padding-left: 22px;
+            padding-top: 15px;
+            top: 170px;
+            border-radius: 20px;
+            font-family: 'Exo 2' ,sans-serif;
+            box-shadow: 1px 1px 5px black;
+            transition: 0.15s;
+            cursor: pointer;
+        }
+        .resume-button:hover{
+            transform: scale(1.1);
+        }
+        .resume-button:active{
+            opacity: 0.20;
+        }
+        .pro{
+            position: absolute;
+            width: 120px;
+            height: 47px;
+            left: 180px;
+            top: 170px;
+            font-family: 'Exo 2' ,sans-serif;
+            border-radius: 25px;
+            border: none;
+            font-size: 17px;
+            box-shadow: 1px 1px 5px black;
+            background-color: white;
+            padding-top: 3px;
+            padding-left: 8px;
+            transition: 0.20s;
+            cursor: pointer;
+        }
+        .pro:hover{
+            transform: scale(1.1);
+        }
+        .pro:active{
+            opacity: 0.15;
+        }
+       
+        .paragraph1{
+            position: absolute;
+            font-family: 'Exo 2' ,sans-serif;
+            top:250px;
+            text-align: left;
+            line-height: 30px;
+            font-weight: bold;
+            list-style:square;
+        }
+        .paragraph2{
+            position: absolute;
+            font-family: 'Exo 2' ,sans-serif;
+            top:380px;
+            text-align: left;
+            line-height: 30px;
+            font-weight: bold;
+            list-style:square;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <div class="prime">
+        <div class="left-div">
+            <div class="profile-box">
+                <img class="profile-foto" src="C:\Users\vrama\Downloads\1694611318787-removebg-preview-fotor-bg-remover-2023091491212.png">
+                <P class="name">VENKAT RAMANAN N M</p>
+                    <p class="profesion">MERN Stack Developer</p>
+                    <div class="blue-box"></div>
+                <div class="bottom-box">
+                    <button class="facebook" style="width: 100px;">
+                        <img class="fb" src="C:\Users\vrama\Downloads\facebook-app-symbol.png">
+                    </button>
+                    <button class="facebook" style="width: 100px;">
+                        <img class="fb" src="C:\Users\vrama\Downloads\youtube (1).png">
+                    </button>
+                    <button class="facebook" style="width: 100px;">
+                        <img class="fb" src="C:\Users\vrama\Downloads\linkedin-big-logo.png">
+                    </button>
+                    <button class="facebook" style="width: 100px; left: 70px;">
+                        <img class="fb" src="C:\Users\vrama\Downloads\instagram (1).png">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right-div">
+            <h1 class="heading">HELLO!</h1>
+            <p class="para">here's who i am & what i do</p>
+            <botton class="resume-button">RESUME</botton>
+            <button class="pro">PROJECTS</button>
+            <ul>
+                <li class="paragraph1">Greetings! I am a passionate MERN stack developer with a flair for crafting dynamic, interactive, and user-centric web applications. Armed with a diverse skill set and an insatiable appetite for cutting-edge technologies.</li>
+                <li class="paragraph2">Each line meticulously crafted to ensure performance, scalability, and an exceptional user experience.</li>
+            </ul>
+        </div>
+     </div>
+</body>
+</html>
